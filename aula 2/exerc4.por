@@ -1,6 +1,6 @@
 programa
 {
-	//exerc4
+	//exerc4
 	funcao inicio()
 	{
 	//calculadora simples com soma subtracao mult e divisao
@@ -18,13 +18,13 @@ programa
 	leia(num2)
 
 	se(operacao=='+')
-	escreva(num1, operacao, num2, "=", num1+num2)
+	escreva(num1, operacao, num2, " = ", num1+num2)
 
 	se(operacao=='-')
-	escreva(num1, operacao, num2, "=", num1-num2)
+	escreva(num1, operacao, num2, " = ", num1-num2)
 
 	se(operacao=='*')
-	escreva(num1, operacao, num2, "=", num1*num2)
+	escreva(num1, operacao, num2, " = ", num1*num2)
 
 	se(operacao=='/')
 	escreva(num1, operacao, num2, " = ", num1/num2)
@@ -35,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 566; 
+ * @POSICAO-CURSOR = 498; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
